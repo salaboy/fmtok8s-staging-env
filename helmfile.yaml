@@ -1,0 +1,20 @@
+repositories:
+- name: stable
+  url: https://charts.helm.sh/stable
+- name: incubator
+  url: https://charts.helm.sh/incubator
+- name: fmtok8s
+  url: https://salaboy.github.io/helm  
+releases:
+- name: agenda-service
+  namespace: staging
+  chart: fmtok8s/fmtok8s-agenda-rest
+- name: email-service
+  namespace: staging
+  chart: fmtok8s/fmtok8s-email-rest
+- name: c4p-service
+  namespace: staging
+  chart: fmtok8s/fmtok8s-c4p-rest
+- name: api-gateway
+  namespace: staging
+  chart: fmtok8s/fmtok8s-api-gateway
