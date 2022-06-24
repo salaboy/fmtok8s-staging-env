@@ -8,13 +8,17 @@ repositories:
 releases:
 - name: agenda-service
   namespace: staging
-  chart: fmtok8s/fmtok8s-agenda-service:v0.1.0
+  chart: fmtok8s/fmtok8s-agenda-service
+  version: v0.1.0
 - name: email-service
   namespace: staging
-  chart: fmtok8s/fmtok8s-email-service:v0.1.0
+  chart: fmtok8s/fmtok8s-email-service
+  version: v0.1.0
 - name: c4p-service
   namespace: staging
-  chart: fmtok8s/fmtok8s-c4p-service:v0.1.0
+  chart: fmtok8s/fmtok8s-c4p-service
+  version: v0.1.0
 - name: api-gateway
   namespace: staging
-  chart: fmtok8s/fmtok8s-frontend:v0.1.0
+  chart: fmtok8s/fmtok8s-frontend
+  version: v0.1.0
