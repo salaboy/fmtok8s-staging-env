@@ -18,7 +18,7 @@ releases:
   namespace: staging
   chart: fmtok8s/fmtok8s-c4p-service
   version: v0.1.0
-- name: api-gateway
+- name: frontend
   namespace: staging
   chart: fmtok8s/fmtok8s-frontend
   version: v0.1.0
